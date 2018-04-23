@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+/* This is the first page of my website  */
+
+body {
+    font-family: 'Times New Roman', Georgia, Serif;
+    
+	color: Black;
+}
+
+
+div {
+    font-family: myFirstFont;
+}
+
+
+blockquote {
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+color: 	#1a0000;
+text-decoration: underline;
+}
+
+h1 {
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+	font-weight: bold;
+	font-style: italic;
+	color: 	#1a0000;
+	text-decoration: underline;
+	width: 100%;   
+	height: auto;
+	-moz-box-shadow: 2px 2px 10px rgba(0,255,0,.75), 5px 5px 20px rgba(125,0,0,.5);
+	-webkit-box-shadow: 2px 2px 10px rgba(0,255,0,.75), 5px 5px 20px rgba(125,0,0,.5);
+	box-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+}
+
+h2 {
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+	color: #1a0000;
+	background: rgba (128,0,0);
+	text-shadow: 2px 2px 0 rgba(255,255,255,1), 6px 6px 0 rgba(50,50,50,.25);
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+
+p {
+	font-family: 'Roboto Condensed', Arial, San Serif;
+	line-height: 1.5;
+}	
+
+article, section, aside, nav, header, footer {
+	display: block;
+}
+
+
+nav ul {  
+	
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+	font-weight: bold;
+	font-style: italic;
+	
+	text-decoration: underline;
+
+	margin: 0;  
+	padding: 15px;  
+	list-style-type: none;  
+	text-align: center;  
+	background-color: #e0e0eb;
+	border: 0px ;
+	position: relative;
+	text-transform: uppercase;
+	
+}  
+
+nav ul li {   
+	display: inline; 
+	padding: 1.0px; 
+}  
+
+nav ul li a {  
+		margin: 0;  
+	padding: 0.1px;  
+	list-style-type: none;  
+	text-align: center;  
+	background-color: #e0e0eb;
+	border: 0.5px dashed #808080;
+	position: relative;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+}  
+
+nav ul li a:hover {  
+	color: #808080;  
+	background-color: #fff;  
+}  
+
+article {
+	float:left;
+	margin-left:1.5%;
+	margin-bottom: 20px;
+	width: 70%;
+	min-height: 300px;
+	
+	padding: 15px;
+	border: 0.1px dashed #f0f0f5;
+	background-color: #e0e0eb;
+}
+
+aside {
+	margin-left:76%;
+	width: 25.5%;
+	min-height: 150px;
+	background-color: #e0e0eb;
+	border: 0.1px dashed #f0f0f5;
+}
+
+#rightsidebar1 li a {
+	text-decoration: none;  
+	
+	color: #fff;  
+	background-color: #e0e0eb;  
+	border: 0.1px solid #f0f0f5;
+          width: 60px;
+    height: 5px;
+    padding: 0.5em 1em;
+    text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+   
+}
+
+#rightsidebar1 li a:hover {
+	color: #000;  
+	background-color: #fff; 
+	text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+}
+
+#rightsidebar {
+	list-style-type: none;
+	display: block;  
+}
+
+#rightsidebar li {
+	width: 200px;
+	background: #e0e0eb;
+	padding: 5px; 
+
+}
+
+#rightsidebar li a {
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+	font-weight: bold;
+	font-style: italic;
+	
+	text-decoration: underline;
+	text-decoration: none;  
+	
+ 
+	background-color: #e0e0eb;  
+	border: 0.1px solid #f0f0f5;
+          width: 60px;
+    height: 5px;
+    padding: 0.5em 1em;
+   
+}
+
+div ul {
+		font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+	font-weight: bold;
+	font-style: italic;
+	
+	text-decoration: underline;
+
+	margin: 0;  
+	padding: 15px;  
+	list-style-type: none;  
+	text-align: center;  
+	background-color: #e0e0eb;
+	border: 0px ;
+	position: relative;
+	text-transform: uppercase;
+	
+}
+
+div ul li {   
+	display: inline; 
+	padding: 1.0px; 
+}  
+
+ div ul li a {  
+		margin: 0;  
+	padding: 0.1px;  
+	list-style-type: none;  
+	text-align: center;  
+	background-color: #e0e0eb;
+	border: 0.5px dashed #808080;
+	position: relative;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+}  
+
+ div ul li a:hover {  
+	color: #808080;  
+	background-color: #fff;  
+}
+
+img {
+	width:	100%;
+	height:	50%;
+	-moz-border-radius-topleft: 75px;
+	-moz-border-top-left-radius: 75px;
+	-webkit-border-top-left-radius: 75px;
+	border-top-left-radius: 75px;
+}
+
+
+fieldset {
+    color: #808080;
+
+    padding: 14px 25px;
+    
+    text-decoration: none;
+   
+
+    	margin: 0;  
+	padding: 0.1px;  
+	list-style-type: none;  
+	text-align: center;  
+	background-color: #e0e0eb;
+	
+	position: relative;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #e0e0eb; 
+    position: relative;
+	text-transform: uppercase;
+		text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #e0e0eb; 
+    color: white;
+}
+
+
+#footer {
+    border-radius: 25px;
+    border: 4px solid #c2c2d6;
+    padding: 20px;
+    width: 95%;
+    height: 10%;
+    background-color: #e0e0eb;
+}
+
+#footer1{
+
+
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 rgba(128,128,128,1), 6px 6px 0 rgba(134,121,121,.25);
+	font-weight: bold;
+	font-style: italic;
+	color: 	#1a0000;
+	text-decoration: underline;
+	width: 100%;   
+	height: auto;
+}
+
+div{
+font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	color: 	#1a0000;
+}
+
+#small{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	color: 	#1a0000;
+}
